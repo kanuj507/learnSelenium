@@ -19,6 +19,7 @@ public class Exercise1 {
 		System.out.println("Page title  ->"+pageTitle);
 		String pageSRC=driver.getPageSource();
 		System.out.println("Page Source Length ->"+pageSRC.length());
+	
 		//System.out.println("Page Source Code ->"+pageSRC);
 		}
 		catch(Exception e)
